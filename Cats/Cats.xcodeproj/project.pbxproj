@@ -27,6 +27,7 @@
 		F264BF682BE24324007FC5B9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264BF672BE24324007FC5B9 /* CardView.swift */; };
 		F264BF6A2BE24A58007FC5B9 /* DetailsCatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264BF692BE24A58007FC5B9 /* DetailsCatView.swift */; };
 		F264BF6C2BE24FA8007FC5B9 /* CatDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264BF6B2BE24FA8007FC5B9 /* CatDetailsViewModel.swift */; };
+		F2B241862C06835400A418CD /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B241852C06835400A418CD /* ButtonStyle.swift */; };
 		F2CE783A2BE409AF001123F5 /* APIMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CE78392BE409AF001123F5 /* APIMock.swift */; };
 		F2CE783D2BE409EA001123F5 /* ServiceURLFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CE783C2BE409EA001123F5 /* ServiceURLFactoryTests.swift */; };
 		F2CE783F2BE410CD001123F5 /* CatViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CE783E2BE410CD001123F5 /* CatViewModelTests.swift */; };
@@ -77,6 +78,7 @@
 		F264BF672BE24324007FC5B9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		F264BF692BE24A58007FC5B9 /* DetailsCatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCatView.swift; sourceTree = "<group>"; };
 		F264BF6B2BE24FA8007FC5B9 /* CatDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetailsViewModel.swift; sourceTree = "<group>"; };
+		F2B241852C06835400A418CD /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		F2CE78392BE409AF001123F5 /* APIMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMock.swift; sourceTree = "<group>"; };
 		F2CE783C2BE409EA001123F5 /* ServiceURLFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceURLFactoryTests.swift; sourceTree = "<group>"; };
 		F2CE783E2BE410CD001123F5 /* CatViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModelTests.swift; sourceTree = "<group>"; };
@@ -150,7 +152,7 @@
 				F264BF5E2BE19DD7007FC5B9 /* Model */,
 				F264BF2C2BE19817007FC5B9 /* Assets.xcassets */,
 				F264BF2E2BE19817007FC5B9 /* Preview Content */,
-				F264BF522BE198A6007FC5B9 /* Constants.swift */,
+				F2B241842C06833100A418CD /* Utilities */,
 			);
 			path = Cats;
 			sourceTree = "<group>";
@@ -227,6 +229,15 @@
 				F2593EA92BE2BCF7002907C4 /* ErrorLoadingView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F2B241842C06833100A418CD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F264BF522BE198A6007FC5B9 /* Constants.swift */,
+				F2B241852C06835400A418CD /* ButtonStyle.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		F2CE78372BE40856001123F5 /* MainView */ = {
@@ -400,6 +411,7 @@
 				F2CE784F2BE5909F001123F5 /* InfoView.swift in Sources */,
 				F264BF6C2BE24FA8007FC5B9 /* CatDetailsViewModel.swift in Sources */,
 				F264BF552BE19AB3007FC5B9 /* API.swift in Sources */,
+				F2B241862C06835400A418CD /* ButtonStyle.swift in Sources */,
 				F264BF602BE19DE2007FC5B9 /* ImageObject.swift in Sources */,
 				F264BF5D2BE19D64007FC5B9 /* CatsService.swift in Sources */,
 				F264BF632BE19FD6007FC5B9 /* CatViewModel.swift in Sources */,

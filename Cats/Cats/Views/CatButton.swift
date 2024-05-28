@@ -19,12 +19,8 @@ struct CatButton: View {
                 Image(systemName: "arrow.circlepath")
                 Text(title)
             }
-            .foregroundColor(.primary)
-            .font(.system(size: 16))
-            .frame(width: 220, height: 50)
-            .background(.blue)
-            .cornerRadius(15)
         }
+        .buttonStyle(RoundedButtonStyle())
         .padding(.vertical, 15)
     }
 }
